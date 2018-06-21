@@ -1,0 +1,7 @@
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\bin\Debug\FindFile.ps1
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\bin\Debug\NewBuildSample.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\bin\Debug\NewBuildSample.pdb
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.csprojAssemblyReference.cache
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.csproj.CoreCompileInputs.cache
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.pdb

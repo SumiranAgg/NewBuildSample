@@ -1,0 +1,7 @@
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\bin\Release\FindFile.ps1
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\bin\Release\NewBuildSample.dll
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\bin\Release\NewBuildSample.pdb
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.csprojResolveAssemblyReference.cache
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.csproj.CoreCompileInputs.cache
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.dll
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.pdb

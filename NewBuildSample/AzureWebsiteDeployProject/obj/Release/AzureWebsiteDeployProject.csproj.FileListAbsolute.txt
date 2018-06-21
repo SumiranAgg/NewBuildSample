@@ -1,0 +1,8 @@
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\bin\Release\package.zip
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.exe.config
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.exe
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.pdb
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.csprojResolveAssemblyReference.cache
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.csproj.CoreCompileInputs.cache
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.exe
+C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.pdb

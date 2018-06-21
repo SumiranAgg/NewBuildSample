@@ -1,0 +1,11 @@
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\FindFile.ps1
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\NewBuildSample.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\bin\Debug\NewBuildSample.pdb
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

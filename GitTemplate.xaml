@@ -1,0 +1,83 @@
+<Activity x:Class="TfsBuild.Process" 
+  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:mt="clr-namespace:Microsoft.TeamFoundation;assembly=Microsoft.TeamFoundation.Common"
+  xmlns:mtbc="clr-namespace:Microsoft.TeamFoundation.Build.Client;assembly=Microsoft.TeamFoundation.Build.Client"
+  xmlns:mtbco="clr-namespace:Microsoft.TeamFoundation.Build.Common;assembly=Microsoft.TeamFoundation.Build.Common"
+  xmlns:mtbw="clr-namespace:Microsoft.TeamFoundation.Build.Workflow;assembly=Microsoft.TeamFoundation.Build.Workflow"
+  xmlns:mtbwa="clr-namespace:Microsoft.TeamFoundation.Build.Workflow.Activities;assembly=Microsoft.TeamFoundation.Build.Workflow"
+  xmlns:mtba="clr-namespace:Microsoft.TeamFoundation.Build.Activities;assembly=Microsoft.TeamFoundation.Build.Activities"
+  xmlns:mtbac="clr-namespace:Microsoft.TeamFoundation.Build.Activities.Core;assembly=Microsoft.TeamFoundation.Build.Activities"
+  xmlns:mtbag="clr-namespace:Microsoft.TeamFoundation.Build.Activities.Git;assembly=Microsoft.TeamFoundation.Build.Activities"
+  xmlns:mtbwt="clr-namespace:Microsoft.TeamFoundation.Build.Workflow.Tracking;assembly=Microsoft.TeamFoundation.Build.Workflow"
+  xmlns:mttbb="clr-namespace:Microsoft.TeamFoundation.TestImpact.BuildIntegration.BuildActivities;assembly=Microsoft.TeamFoundation.TestImpact.BuildIntegration"
+  xmlns:mtvc="clr-namespace:Microsoft.TeamFoundation.VersionControl.Client;assembly=Microsoft.TeamFoundation.VersionControl.Client"
+  xmlns:mtvco="clr-namespace:Microsoft.TeamFoundation.VersionControl.Common;assembly=Microsoft.TeamFoundation.VersionControl.Common"
+  xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+  xmlns:s="clr-namespace:System;assembly=mscorlib"
+  xmlns:sad="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+  xmlns:sad1="clr-namespace:System.Activities.Debugger;assembly=System.Activities"
+  xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+  xmlns:sl="clr-namespace:System.Linq;assembly=System.Core"
+  xmlns:this="clr-namespace:TfsBuild;"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  >
+  <x:Members>
+    <x:Property Name="BuildNumberFormat" Type="InArgument(x:String)" />
+    <x:Property Name="CleanRepository" Type="InArgument(x:Boolean)" />
+    <x:Property Name="AgentSettings" Type="InArgument(mtbco:BuildParameter)" />
+    <x:Property Name="CheckoutOverride" Type="InArgument(x:String)" />
+    <x:Property Name="UpdateAssociatedWorkItems" Type="InArgument(x:Boolean)" />    
+    <x:Property Name="Metadata" Type="mtbw:ProcessParameterMetadataCollection" />
+    <x:Property Name="ScriptToRun" Type="InArgument(x:String)" />
+    <x:Property Name="SupportedReasons" Type="mtbc:BuildReason" />
+    <x:Property Name="BuildProcessVersion" Type="x:String" />
+  </x:Members>
+  <this:Process.BuildNumberFormat>["$(BuildDefinitionName)_$(Date:yyyyMMdd)$(Rev:.r)"]</this:Process.BuildNumberFormat>
+  <this:Process.CleanRepository>[True]</this:Process.CleanRepository>
+  <this:Process.CheckoutOverride>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Process.CheckoutOverride>
+  <this:Process.AgentSettings>[New Microsoft.TeamFoundation.Build.Common.BuildParameter("
+  { 
+  ""MaxExecutionTime"": ""00:00:00"", 
+  ""MaxWaitTime"": ""04:00:00"", 
+  ""Name"": ""*"", 
+  ""Tags"": [], 
+  ""TagComparison"": ""MatchExactly""
+  }
+  ")]</this:Process.AgentSettings>
+  <this:Process.ScriptToRun>
+    <InArgument x:TypeArguments="x:String" />
+  </this:Process.ScriptToRun>
+  <this:Process.UpdateAssociatedWorkItems>[True]</this:Process.UpdateAssociatedWorkItems>
+  <this:Process.Metadata>
+    <mtbw:ProcessParameterMetadataCollection>
+      <mtbw:ProcessParameterMetadata ParameterName="CleanRepository" BrowsableWhen="Always" Category="#100 Git" DisplayName="1. Clean repository" Description="Set this to true to start with a clean repository on each build." />
+      <mtbw:ProcessParameterMetadata ParameterName="CheckoutOverride" BrowsableWhen="Always" Category="#100 Git" DisplayName="2. Checkout override" Description="Specify the id of a checkout to override the default branch and commit." />
+      <mtbw:ProcessParameterMetadata ParameterName="ScriptToRun" BrowsableWhen="Always" Category="#100 Git" DisplayName="3. Build script path" Description="Specify the path to a custom script." ValueFormatString="" Editor="Microsoft.TeamFoundation.Build.Controls.GitLocalFileBrowserEditor, Microsoft.TeamFoundation.Build.Controls" />
+      <mtbw:ProcessParameterMetadata ParameterName="BuildNumberFormat" BrowsableWhen="EditingDefinition" Category="#400 Advanced" DisplayName="Build number format" Description="Specify the format for the number of this build." Editor="Microsoft.TeamFoundation.Build.Controls.BuildNumberFormatEditor, Microsoft.TeamFoundation.Build.Controls" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings" BrowsableWhen="EditingDefinition" Category="#400 Advanced" DisplayName="Agent settings" Description="Specify the Name and/or Tags (and other properties) that will be used to select an appropriate Agent for the build." ValueFormatString="Use agent where Name={Name} and Tags={Tags} ({TagComparison})" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings.MaxExecutionTime" BrowsableWhen="Always" DisplayName="Maximum agent execution time" Description="Specify the maximum amount of time that you want to allow for this part of the work flow to run. The default value is zero which means there is no timeout." Editor="@Type=TimeSpan" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings.MaxWaitTime" BrowsableWhen="Always" DisplayName="Maximum agent reservation wait time" Description="Specify the maximum amount of time that you want to allow waiting for an agent. The default value is zero which means there is no timeout." Editor="@Type=TimeSpan" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings.Name" BrowsableWhen="Always" DisplayName="Name filter" Description="Specify the agent to use for this remote execution by display name (this is not the computer name). Supported wildcard characters include '*' and '?'." Editor="Microsoft.TeamFoundation.Build.Controls.BuildAgentSelectionEditor, Microsoft.TeamFoundation.Build.Controls" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings.TagComparison" BrowsableWhen="Always" DisplayName="Tag comparison operator" Description="Specify the comparison method to use for tags when selecting a build agent. MatchExactly, MatchAtLeast" Editor="@DropDownList=MatchExactly,MatchAtLeast" />
+      <mtbw:ProcessParameterMetadata ParameterName="AgentSettings.Tags" BrowsableWhen="Always" DisplayName="Tags filter" Description="Specify the tags used to select the build agent." Editor="Microsoft.TeamFoundation.Build.Controls.TagsEditor, Microsoft.TeamFoundation.Build.Controls" />
+      <mtbw:ProcessParameterMetadata ParameterName="UpdateAssociatedWorkItems" BrowsableWhen="Always" Category="#400 Advanced" DisplayName="Update work items with build number" Description="Set this to true to update the associated work items by setting the Fixed In Build field to the build number of this build." />
+    </mtbw:ProcessParameterMetadataCollection>
+  </this:Process.Metadata>
+  <this:Process.SupportedReasons>Manual, IndividualCI, BatchedCI, Schedule, ScheduleForced, UserCreated</this:Process.SupportedReasons>
+  <this:Process.BuildProcessVersion>12.0</this:Process.BuildProcessVersion>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces serialized as XML namespaces</mva:VisualBasic.Settings>
+  <Sequence DisplayName="Overall build process">
+    <mtbac:SetBuildNumber DisplayName="Update build number" BuildNumberFormat="[BuildNumberFormat]" />
+    <mtbwa:AgentScope DisplayName="Run on agent" MaxExecutionTime="[AgentSettings.GetValue(Of TimeSpan)(&quot;MaxExecutionTime&quot;, New System.TimeSpan(0,0,0))]" MaxWaitTime="[AgentSettings.GetValue(Of TimeSpan)(&quot;MaxWaitTime&quot;, New System.TimeSpan(4,0,0))]" ReservationSpec="[AgentSettings.CreateAgentReservationSpec()]">
+      <mtbac:InitializeEnvironment DisplayName="Initialize environment" />
+      <mtbag:GitPull DisplayName="Pull sources from Git repo" CleanRepository="[CleanRepository]" Commit="[CheckoutOverride]" />
+      <mtba:RunScript DisplayName="Run optional script" FilePath="[ScriptToRun]" Arguments="[String.Empty]" />
+      <mtba:AssociateChanges DisplayName="Associate the changesets that occurred since the last good build" UpdateWorkItems="[UpdateAssociatedWorkItems]" />
+      <mtbac:DropBinaries DisplayName="Copy binaries to drop" />
+      <mtbac:ResetEnvironment DisplayName="Reset the Environment" />
+    </mtbwa:AgentScope>
+  </Sequence>
+</Activity>
