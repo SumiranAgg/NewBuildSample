@@ -9,3 +9,14 @@ C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\UnitTestProject1\obj\R
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.csproj.CopyComplete
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.dll
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\FindFile.ps1
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\UnitTestProject1.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\UnitTestProject1.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Release\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.csproj.CopyComplete
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Release\UnitTestProject1.pdb

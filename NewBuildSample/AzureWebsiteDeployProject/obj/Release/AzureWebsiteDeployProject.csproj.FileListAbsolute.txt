@@ -6,3 +6,11 @@ C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProj
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.csproj.CoreCompileInputs.cache
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.exe
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Release\package.zip
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.exe.config
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.exe
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Release\AzureWebsiteDeployProject.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.csprojAssemblyReference.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.exe
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Release\AzureWebsiteDeployProject.pdb

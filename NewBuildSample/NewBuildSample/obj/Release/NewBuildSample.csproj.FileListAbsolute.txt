@@ -5,3 +5,10 @@ C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Rel
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.csproj.CoreCompileInputs.cache
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.dll
 C:\test-agents\CR-CDP-LOVAK-DT-1\_work\3\s\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Release\FindFile.ps1
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Release\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Release\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.csprojAssemblyReference.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Release\NewBuildSample.pdb

@@ -5,3 +5,9 @@ D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewB
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.csproj.CoreCompileInputs.cache
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.dll
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Debug\FindFile.ps1
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Debug\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\bin\Debug\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\NewBuildSample\obj\Debug\NewBuildSample.pdb

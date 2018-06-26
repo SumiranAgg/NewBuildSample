@@ -6,3 +6,11 @@ D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\AzureWebsiteDeployProject\obj
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.csproj.CoreCompileInputs.cache
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.exe
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Debug\package.zip
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Debug\AzureWebsiteDeployProject.exe.config
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Debug\AzureWebsiteDeployProject.exe
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\bin\Debug\AzureWebsiteDeployProject.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.csprojAssemblyReference.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.exe
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\AzureWebsiteDeployProject\obj\Debug\AzureWebsiteDeployProject.pdb

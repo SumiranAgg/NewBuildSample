@@ -9,3 +9,14 @@ D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\Un
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.dll
 D:\AgentPool\Agent_Latest\_work\1\s\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\FindFile.ps1
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\NewBuildSample.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\bin\Debug\NewBuildSample.pdb
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csprojAssemblyReference.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.csproj.CopyComplete
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\nigurr.FAREAST\Desktop\NewBuildSample\NewBuildSample\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
